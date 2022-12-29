@@ -17,3 +17,4 @@ print_file_info()
 
     #接收文件路径以及传入数据，将数据追加写入到文件中
 def append_to_file(file_name, data):
+    test
