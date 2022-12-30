@@ -1,7 +1,7 @@
 import json
 
 # 处理数据
-f_us = open("D:/python-learn/python练习/美国.txt", "r", encoding="UTF-8")
+f_us = open("/python图表数据/美国.txt", "r", encoding="UTF-8")
 # 美国的全部内容
 us_data = f_us.read()
 # 去掉不合JSON规范的开头
