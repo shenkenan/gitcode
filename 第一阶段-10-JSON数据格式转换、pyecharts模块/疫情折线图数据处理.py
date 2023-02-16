@@ -4,13 +4,13 @@ from pyecharts.options import TitleOpts, ToolboxOpts, VisualMapOpts, LegendOpts,
 
 # 处理数据
 # 美国的全部内容
-f_us = open("D:/python-learn/python图表数据/美国.txt", "r", encoding="UTF-8")
+f_us = open("D:/python-learn/第一阶段-python图表数据/美国.txt", "r", encoding="UTF-8")
 us_data = f_us.read()
 # 日本的全部内容
-f_jp = open("D:/python-learn/python图表数据/日本.txt", "r", encoding="UTF-8")
+f_jp = open("D:/python-learn/第一阶段-python图表数据/日本.txt", "r", encoding="UTF-8")
 jp_data = f_jp.read()
 # 印度的全部内容
-f_in = open("D:/python-learn/python图表数据/印度.txt", "r", encoding="UTF-8")
+f_in = open("D:/python-learn/第一阶段-python图表数据/印度.txt", "r", encoding="UTF-8")
 in_data = f_in.read()
 
 # 美国疫情数据处理
